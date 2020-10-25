@@ -25,9 +25,9 @@ return a/b ;
 int main()
 {
     printf("Hello world!\n");
-    summ(3, 1);
-    difference(3, 1);
-    multiplication(3, 3);
-    division(10, 2);
+    summ(3, 1); //тест суммы 
+    difference(3, 1); // тест разности
+    multiplication(3, 3); // тест умножения
+    division(10, 2); // тест деления
     return 0;
 }
