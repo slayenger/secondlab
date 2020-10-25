@@ -17,11 +17,17 @@ float multiplication(float a, float b) {
 return a*b;
 }
 
+float division(float a , float b) {
+    printf("Деление чисел %f и %f равно %f\n", a, b, a/b);
+return a/b ;
+}
+
 int main()
 {
     printf("Hello world!\n");
     summ(3, 1);
     difference(3, 1);
     multiplication(3, 3);
+    division(10, 2);
     return 0;
 }
